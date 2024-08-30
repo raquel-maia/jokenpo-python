@@ -1,6 +1,6 @@
 # Joguinho Pedra 👊🏽, Papel 🖐🏽 e Tesoura ✌🏽 
 
-<p align="center">Esse foi um projetinho para ajudar na prática do Python e relembra a infância</p>
+<p align="center">Esse foi um projetinho para ajudar na prática do Python e relembrar a infância</p>
 
 ## Funcionalidades
 - **Saudação Personalizada**: O jogo começa com uma saudação personalizada, pedindo o nome do jogador.

@@ -8,14 +8,22 @@ print(f'Boa {welcome_gamer}. Lets Goo! 🦖')
 your_score = 0
 my_score = 0
 
+valid_choices = ["pedra", "papel", "tesoura"]
+
 while True:
-    gamer = input("Digite papel, tesoura ou pedra (ou 'sair' para encerrar): ").lower()
+    gamer = input("Para começar digite: papel, tesoura ou pedra (ou 'sair' para encerrar): ").lower()
+    if gamer not in valid_choices:
+        print("Entrada inválida. Por favor, digite apenas 'pedra', 'papel' ou 'tesoura'.")
+        continue
     gamer_random = random.choice(["pedra", "papel", "tesoura"])
+    
     
     if gamer == "sair":
         print("Jogo encerrado. Obrigado por jogar!")
         print(f"Placar final: Você {your_score} x {my_score} IA")
         break
+    
+    
     if gamer_random ==  gamer:
         print("Deu empate")
     elif gamer_random == "tesoura" and gamer == "papel":
@@ -30,7 +38,7 @@ while True:
     else:
         print(f"Tirei {gamer_random}, você ganhou 🎈🎈🎈")
         your_score+=1
-    
-    # Exibe o placar atualizado
+
+
     print(f"Placar: Você {your_score} x {my_score} IA\n")
     

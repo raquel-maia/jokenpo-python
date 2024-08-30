@@ -8,13 +8,15 @@ print(f'Boa {welcome_gamer}. Lets Goo! 🦖')
 your_score = 0
 my_score = 0
 
-valid_choices = ["pedra", "papel", "tesoura"]
+valid_choices = ["pedra", "papel", "tesoura", "sair"]
 
 while True:
     gamer = input("Para começar digite: papel, tesoura ou pedra (ou 'sair' para encerrar): ").lower()
+    
     if gamer not in valid_choices:
         print("Entrada inválida. Por favor, digite apenas 'pedra', 'papel' ou 'tesoura'.")
         continue
+    
     gamer_random = random.choice(["pedra", "papel", "tesoura"])
     
     

@@ -5,6 +5,7 @@
 ## Funcionalidades
 - **Saudação Personalizada**: O jogo começa com uma saudação personalizada, pedindo o nome do jogador.
 - **Escolha do Jogador e IA**: O jogador escolhe entre pedra, papel ou tesoura, enquanto a IA faz uma escolha aleatória.
+- **Valida Entrada**: Seu o jogador escrever outra palavra que não seja pedra, papel e tesoura ele valida para prosseguir o jogo  .
 - **Determinador de Resultado**: O jogo compara as escolhas e determina o vencedor, atualizando o placar.
 - **Encerramento do Jogo**: O jogador pode encerrar o jogo a qualquer momento digitando "sair", e o placar final é exibido.
 
